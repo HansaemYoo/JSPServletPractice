@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<!-- <form action="폼을 전송할 서버 쪽 스크립트 파일" method="폼을 서버에 전송할 http메소드 지정" -->
+		<form action="mSignUp.jsp" method="get">
+		<!-- <input type="text(한줄의 텍스트입력필드)" name="<input>의 요소이름"> -->
+			name: <input type="text" name="m_name">
+			<!-- <input type="password"(문자는 별표나 동그라미로 표시)"> -->
+			<br>password: <input type="password" name="m_password">
+			<!-- <input type="checkbox(체크박스)"> -->
+			<br>hobby: sport<input type="checkbox" name="m_hobby" value="sport">
+				cooking<input type="checkbox" name="m_hobby" value="cooking">
+				travle<input type="checkbox" name="m_hobby" value="travle">
+				<!-- <input type="submit(폼을 제출하는 버튼을 정의)"> -->
+			<input type="submit" value="signup">
+		</form>
+
+	</body>
+</html>
